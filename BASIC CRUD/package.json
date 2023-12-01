@@ -1,0 +1,15 @@
+{
+  "name": "basic-crud",
+  "version": "1.0.0",
+  "description": "first project",
+  "main": "sever.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "\"iroko paul\"",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
