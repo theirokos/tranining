@@ -18,20 +18,13 @@ const app = express();
 // This is a call from form                  mysql=> INSERT INTO users(name,age) VALUES(“paul”, 20)
 
 // app.put
-//This is a call to update complete data of an entity  
-// eg url localhost:3001/api/users/:id
-//call from frontend to Backend               call from Backend to Database
-//This is a call from url                     mysql=> SELECT * FROM users
+//This is a call to update complete data of an entity
 
-//app.patch This is a call to update partial data of an entity
-// eg url localhost:3001/api/users/:id
-// //call from Backend to frontend             call from Backend to Database 
-// This is a call from the url                 mysql=> SELECT * FROM users                                                                            
+// app.patch
+// This is a call to update partial data of an entity
 
-// app.delete This is a call to delete an entity
-// eg url localhost:3001/api/users        
-//call from frontend to Backend                call from frontend to database
-//This is a call from the url                  mysql=> SELECT * FROM users where id=1
+// app.delete
+// This is a call to delete an entity
 
 
 app.get('/', (req, res) => {
@@ -52,9 +45,3 @@ app.get('/', (req, res) => {
 app.listen(3001, () => {
     console.log('Server running on localhost:3001');
 });
-
-
-
-
-
-
